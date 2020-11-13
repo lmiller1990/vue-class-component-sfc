@@ -23,5 +23,5 @@ fs.writeFileSync('hello.js',
   tsJs.outputText.replace('export default Hello;', '') + 
     templateCode + 
     '\n' + 
-    'export default {...Hello, render};'
+    'export default {...Hello.__vccBase, render};'
   )
