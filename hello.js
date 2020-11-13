@@ -36,4 +36,5 @@ import { toDisplayString as _toDisplayString, createVNode as _createVNode, openB
 export function render(_ctx, _cache) {
   return (_openBlock(), _createBlock("div", null, _toDisplayString(_ctx.msg), 1 /* TEXT */))
 }
-export default {...Hello, render};
+console.log(Hello)
+export default {...Hello.__vccBase, render};
